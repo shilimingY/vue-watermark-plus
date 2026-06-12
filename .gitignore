@@ -1,0 +1,24 @@
+node_modules/
+
+dist/
+
+# Vite 缓存
+.vite/
+
+# TypeScript 构建信息
+*.tsbuildinfo
+
+# 日志
+*.log
+npm-debug.log*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+.env.local
+.env.*.local

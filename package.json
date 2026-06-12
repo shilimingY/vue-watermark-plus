@@ -1,0 +1,35 @@
+{
+  "name": "vue-watermark-plus",
+  "version": "1.1.8",
+  "description": "基于 Vue3 强力水印插件✨，支持Canvas/SVG双渲染模式🎨，内置防篡改机制📝，采用自定义指令无侵入式设计，为你的页面内容加上隐形安全锁🛡️🛡️🛡️。",
+  "main": "dist/vue-watermark-plus.umd.js",
+  "module": "dist/vue-watermark-plus.es.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-watermark-plus.es.js",
+      "require": "./dist/vue-watermark-plus.umd.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["vue", "watermark", "directive", "canvas", "svg", "Vue水印插件", "防篡改水印", "自定义指令水印"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilimingY/vue-watermark-plus.git"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+     "vite": "^6.0.0",
+    "vite-plugin-dts": "^4.3.0",
+    "typescript": "^5.6.0",
+    "vue-tsc": "^3.2.6"
+  }
+}
