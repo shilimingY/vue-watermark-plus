@@ -3,7 +3,7 @@
 > 一个高性能的Vue3企业级水印工具，支持Canvas / SVG 双渲染引擎，零侵入一键使用，双重防篡改，让你的内容保护变得简单又高效。
 
 [![npm version](https://img.shields.io/npm/v/vue-watermark-plus)](https://www.npmjs.com/package/vue-watermark-plus)
-[![license](https://img.shields.io/npm/l/vue-watermark-plus)](https://github.com/shilimingY/vue-watermark-plus/blob/master/LICENSE)
+[![license](https://img.shields.io/npm/l/vue-watermark-plus?cachebust=slm)](https://github.com/shilimingY/vue-watermark-plus/blob/master/LICENSE)
 
 ## ✨ 特点
 
