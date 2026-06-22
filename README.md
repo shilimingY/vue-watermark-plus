@@ -50,7 +50,7 @@ const app = createApp(App)
 app.use(VueWatermarkPlus)
 app.mount('#app')
 ```
-### 在组件中使用指令
+#### 在组件中使用指令
 ```vue
 <template>
   <div
@@ -66,7 +66,26 @@ app.mount('#app')
   </div>
 </template>
 ```
-
+### 局部注册
+```vue
+<!-- 组件内按需引入，无需全局注册 -->
+<script setup lang="ts">
+  import { vWatermark } from 'vue-watermark-plus'
+</script>
+<template>
+  <div
+    v-watermark="{
+      text: '仅供内部使用',
+      opacity: 0.2,
+      rotate: -20,
+      density: 'medium',
+      mode: 'svg'
+    }"
+  >
+    <!-- 你的页面内容 -->
+  </div>
+</template>
+```
 ## ⚙️ 配置参数
 | 参数 | 类型 | 默认值 | 说明 |
 |------|------|--------|------|

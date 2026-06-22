@@ -1,7 +1,7 @@
 import { App } from 'vue';
 import { vWatermark } from './directive';
 
-export { vWatermark } from './directive';
+export { vWatermark } from './directive'; // 供局部注册
 export type { WatermarkOptions, WatermarkMode } from './types';
 
 const plugin = {
